@@ -1,8 +1,13 @@
-
+"user client";
 import React, { useState } from "react"
-import { Map, Marker } from "pigeon-maps"
+import { Map, Marker, Point} from "pigeon-maps"
 import { blue } from "@mui/material/colors"
-import Tooltip from '@mui/material/Tooltip';
+import { constants } from "buffer";
+
+
+
+
+let zipcoordinates = {'12390': [40.01445,-75.18663]}
 
 export function MyMap() {
   const [hue, setHue] = useState(0)
@@ -17,12 +22,13 @@ export function MyMap() {
       <Marker width={50} anchor={[40.03331,-75.11749]} />
       <Marker width={50} anchor={[40.01708,-75.09426]} />
       
-      <Marker 
-        width={50}
+      <Marker //Hunting Park, PA
+        width={30}
         anchor={[40.0150, -75.1472]} 
         color={color} 
         onClick={() => setHue(hue + 20)} 
       />
+      
     </Map>
   )
 }

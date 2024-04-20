@@ -1,22 +1,23 @@
 "use client";
 import {MapChart}  from "./components/simplemap.jsx"; 
-import { MyMap } from "./components/map.tsx";
-
-
-
+import { MyMap } from "./components/map.tsx"
 import { Slider, Typography } from "@mui/material";
+import React, { useState } from 'react';
+
+
+
 
 export default function Home() {
   return (
     <div>
       <header className="fixed top-0 left-0 right-0 bg-gray-800 text-white py-6 px-8 flex justify-between items-center">
         <h1 className="text-2xl font-bold">
-          Team{" "}
-          <a className="text-blue-400">Seven</a>
+          The Expansion Index{" "}
+          <a className="text-sm text-blue-400">TeamSeven</a>
         </h1>
         <div className="flex items-center">
           <div className="text-white px-4 py-2 rounded-lg mr-4">
-            Member 1, Member 2, Member 3, Member 4, Member 5
+            Siyam Al Shahriar, Lucy Wu, Rejin Nepal, Joseph Musenge
           </div>
         </div>
         <div className="flex items-center">
@@ -37,23 +38,18 @@ export default function Home() {
         </div>
       </header>
       
-      <div className="h-16" />
+      <div className="h-16 " />
 
-      <main className="flex min-h-screen flex-row p-24">
+      <main className="flex min-h-screen flex-row bg-slate-600 p-24">
         {/* Main Map area */}
-        <div className="flex-grow">
+        <div className="flex-grow rounded-lg">
           <MyMap/>
-           {/* <Marker 
-            width={50}
-            anchor={[50.879, 4.6997]} 
-            color={color} 
-            onClick={() => setHue(hue + 20)} 
-          > */}
+
         </div>
 
         <div className="ml-8 w-1/4 flex flex-col"> 
           <div className="mb-4">
-            <Typography>Adjust Metric 1</Typography>
+            <Typography>Median Household Income</Typography>
             <Slider
               defaultValue={50}
               aria-label="Adjust Metric 1"
@@ -62,7 +58,7 @@ export default function Home() {
           </div>
 
           <div className="mb-4">
-            <Typography>Adjust Metric 2</Typography>
+            <Typography>Graduation Rate</Typography>
             <Slider
               defaultValue={50}
               aria-label="Adjust Metric 2"
@@ -71,7 +67,7 @@ export default function Home() {
           </div>
 
           <div>
-            <Typography>Adjust Metric 3</Typography>
+            <Typography>Number of food stamps allocated</Typography>
             <Slider
               defaultValue={50}
               aria-label="Adjust Metric 3"
@@ -79,12 +75,20 @@ export default function Home() {
             />
           </div>
           <div>
-            <Typography>Adjust Metric 4</Typography>
-            <Slider
-              defaultValue={50}
-              aria-label="Adjust Metric 3"
-              valueLabelDisplay="auto"
-            />
+          <a
+          href="/get-started"
+          className="bg-gradient-to-r from-green-400 to-blue-500 "
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className={`mb-2 text-xl`}>
+            Get expansion suggestions{" "}
+            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              -&gt;
+            </span>
+          </h2>
+        
+        </a>
           </div>
         </div>
       </main>
