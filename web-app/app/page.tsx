@@ -1,7 +1,4 @@
 "use client";
-import Image from "next/image";
-
-
 import {MapChart}  from "./components/simplemap.jsx"; 
 import { MyMap } from "./components/map.tsx";
 
@@ -39,13 +36,13 @@ export default function Home() {
           </a>
         </div>
       </header>
-
+      
       <div className="h-16" />
 
       <main className="flex min-h-screen flex-row p-24">
         {/* Main Map area */}
         <div className="flex-grow">
-          Main Map Goes Here
+          <MyMap/>
         </div>
 
         <div className="ml-8 w-1/4 flex flex-col"> 
@@ -85,11 +82,6 @@ export default function Home() {
           </div>
         </div>
       </main>
-    </div>
-  );
+      </div>
+    );
 }
-
-
-
-
-//  New layout
