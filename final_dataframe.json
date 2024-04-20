@@ -1,0 +1,709 @@
+[
+    {
+        "ZIP": 19103.0,
+        "StudentEnrollment": 786.3333333333,
+        "Average Daily Attendance (YTD)": 96.17,
+        "MEDIAN INCOME": 97153.5,
+        "Food stamps": 111.125
+    },
+    {
+        "ZIP": 19104.0,
+        "StudentEnrollment": 246.2,
+        "Average Daily Attendance (YTD)": 87.455,
+        "MEDIAN INCOME": 40522.65,
+        "Food stamps": 328.9130434783
+    },
+    {
+        "ZIP": 19106.0,
+        "StudentEnrollment": 401.0,
+        "Average Daily Attendance (YTD)": 90.8,
+        "MEDIAN INCOME": 122808.7777777778,
+        "Food stamps": 76.7777777778
+    },
+    {
+        "ZIP": 19111.0,
+        "StudentEnrollment": 1049.625,
+        "Average Daily Attendance (YTD)": 89.332,
+        "MEDIAN INCOME": 58823.8235294118,
+        "Food stamps": 481.2222222222
+    },
+    {
+        "ZIP": 19114.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 75014.2727272727,
+        "Food stamps": 258.25
+    },
+    {
+        "ZIP": 19115.0,
+        "StudentEnrollment": 1173.5,
+        "Average Daily Attendance (YTD)": 95.555,
+        "MEDIAN INCOME": 68683.5555555556,
+        "Food stamps": 383.7777777778
+    },
+    {
+        "ZIP": 19116.0,
+        "StudentEnrollment": 1209.0,
+        "Average Daily Attendance (YTD)": 90.59,
+        "MEDIAN INCOME": 76100.8,
+        "Food stamps": 343.2
+    },
+    {
+        "ZIP": 19118.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 117310.7777777778,
+        "Food stamps": 66.6666666667
+    },
+    {
+        "ZIP": 19119.0,
+        "StudentEnrollment": 403.6666666667,
+        "Average Daily Attendance (YTD)": 91.5166666667,
+        "MEDIAN INCOME": 72639.75,
+        "Food stamps": 452.875
+    },
+    {
+        "ZIP": 19120.0,
+        "StudentEnrollment": 521.25,
+        "Average Daily Attendance (YTD)": 87.584,
+        "MEDIAN INCOME": 47321.2352941177,
+        "Food stamps": 625.6111111111
+    },
+    {
+        "ZIP": 19121.0,
+        "StudentEnrollment": 201.6666666667,
+        "Average Daily Attendance (YTD)": 82.4583333333,
+        "MEDIAN INCOME": 41956.2941176471,
+        "Food stamps": 522.5789473684
+    },
+    {
+        "ZIP": 19122.0,
+        "StudentEnrollment": 248.5,
+        "Average Daily Attendance (YTD)": 85.6316666667,
+        "MEDIAN INCOME": 55522.7,
+        "Food stamps": 427.4
+    },
+    {
+        "ZIP": 19123.0,
+        "StudentEnrollment": 281.75,
+        "Average Daily Attendance (YTD)": 92.03,
+        "MEDIAN INCOME": 82141.0,
+        "Food stamps": 213.25
+    },
+    {
+        "ZIP": 19124.0,
+        "StudentEnrollment": 460.125,
+        "Average Daily Attendance (YTD)": 84.7533333333,
+        "MEDIAN INCOME": 50307.1176470588,
+        "Food stamps": 772.2941176471
+    },
+    {
+        "ZIP": 19125.0,
+        "StudentEnrollment": 441.6666666667,
+        "Average Daily Attendance (YTD)": 84.94,
+        "MEDIAN INCOME": 62861.8333333333,
+        "Food stamps": 622.5
+    },
+    {
+        "ZIP": 19126.0,
+        "StudentEnrollment": 271.0,
+        "Average Daily Attendance (YTD)": 88.26,
+        "MEDIAN INCOME": 49804.8,
+        "Food stamps": 723.0
+    },
+    {
+        "ZIP": 19127.0,
+        "StudentEnrollment": 230.0,
+        "Average Daily Attendance (YTD)": 92.06,
+        "MEDIAN INCOME": 96251.6,
+        "Food stamps": 65.8
+    },
+    {
+        "ZIP": 19128.0,
+        "StudentEnrollment": 479.2,
+        "Average Daily Attendance (YTD)": 86.5225,
+        "MEDIAN INCOME": 87477.4285714286,
+        "Food stamps": 122.8571428571
+    },
+    {
+        "ZIP": 19129.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 68738.75,
+        "Food stamps": 480.2222222222
+    },
+    {
+        "ZIP": 19130.0,
+        "StudentEnrollment": 466.8571428571,
+        "Average Daily Attendance (YTD)": 85.874,
+        "MEDIAN INCOME": 111882.6666666667,
+        "Food stamps": 59.0
+    },
+    {
+        "ZIP": 19131.0,
+        "StudentEnrollment": 406.5714285714,
+        "Average Daily Attendance (YTD)": 83.135,
+        "MEDIAN INCOME": 49883.8235294118,
+        "Food stamps": 404.0588235294
+    },
+    {
+        "ZIP": 19132.0,
+        "StudentEnrollment": 281.0,
+        "Average Daily Attendance (YTD)": 82.635,
+        "MEDIAN INCOME": 29009.4,
+        "Food stamps": 587.6
+    },
+    {
+        "ZIP": 19133.0,
+        "StudentEnrollment": 285.8,
+        "Average Daily Attendance (YTD)": 83.296,
+        "MEDIAN INCOME": 26731.0,
+        "Food stamps": 1302.6
+    },
+    {
+        "ZIP": 19134.0,
+        "StudentEnrollment": 361.8571428571,
+        "Average Daily Attendance (YTD)": 84.2975,
+        "MEDIAN INCOME": 42433.6666666667,
+        "Food stamps": 780.5
+    },
+    {
+        "ZIP": 19135.0,
+        "StudentEnrollment": 633.5,
+        "Average Daily Attendance (YTD)": 86.475,
+        "MEDIAN INCOME": 51856.1111111111,
+        "Food stamps": 644.6666666667
+    },
+    {
+        "ZIP": 19136.0,
+        "StudentEnrollment": 1265.4,
+        "Average Daily Attendance (YTD)": 87.5766666667,
+        "MEDIAN INCOME": 76295.8,
+        "Food stamps": 211.5
+    },
+    {
+        "ZIP": 19137.0,
+        "StudentEnrollment": 547.0,
+        "Average Daily Attendance (YTD)": 89.41,
+        "MEDIAN INCOME": null,
+        "Food stamps": null
+    },
+    {
+        "ZIP": 19138.0,
+        "StudentEnrollment": 506.75,
+        "Average Daily Attendance (YTD)": 89.53,
+        "MEDIAN INCOME": 46300.5,
+        "Food stamps": 483.125
+    },
+    {
+        "ZIP": 19139.0,
+        "StudentEnrollment": 343.25,
+        "Average Daily Attendance (YTD)": 86.7,
+        "MEDIAN INCOME": 42581.2857142857,
+        "Food stamps": 592.0
+    },
+    {
+        "ZIP": 19140.0,
+        "StudentEnrollment": 341.1428571429,
+        "Average Daily Attendance (YTD)": 85.852,
+        "MEDIAN INCOME": 38170.875,
+        "Food stamps": 631.1
+    },
+    {
+        "ZIP": 19141.0,
+        "StudentEnrollment": 748.0,
+        "Average Daily Attendance (YTD)": 92.22,
+        "MEDIAN INCOME": 41311.0,
+        "Food stamps": 679.0
+    },
+    {
+        "ZIP": 19142.0,
+        "StudentEnrollment": 407.0,
+        "Average Daily Attendance (YTD)": 86.0875,
+        "MEDIAN INCOME": 42652.8888888889,
+        "Food stamps": 602.4
+    },
+    {
+        "ZIP": 19143.0,
+        "StudentEnrollment": 293.2,
+        "Average Daily Attendance (YTD)": 85.01,
+        "MEDIAN INCOME": 43296.2727272727,
+        "Food stamps": 636.0909090909
+    },
+    {
+        "ZIP": 19144.0,
+        "StudentEnrollment": 544.0,
+        "Average Daily Attendance (YTD)": 89.045,
+        "MEDIAN INCOME": 41175.875,
+        "Food stamps": 505.0
+    },
+    {
+        "ZIP": 19145.0,
+        "StudentEnrollment": 362.6666666667,
+        "Average Daily Attendance (YTD)": 87.18,
+        "MEDIAN INCOME": 67087.0769230769,
+        "Food stamps": 306.3684210526
+    },
+    {
+        "ZIP": 19146.0,
+        "StudentEnrollment": 463.3333333333,
+        "Average Daily Attendance (YTD)": 89.46,
+        "MEDIAN INCOME": 107075.3636363636,
+        "Food stamps": 188.8181818182
+    },
+    {
+        "ZIP": 19147.0,
+        "StudentEnrollment": 642.5,
+        "Average Daily Attendance (YTD)": 95.11,
+        "MEDIAN INCOME": 99761.1428571429,
+        "Food stamps": 209.8571428571
+    },
+    {
+        "ZIP": 19148.0,
+        "StudentEnrollment": 647.25,
+        "Average Daily Attendance (YTD)": 86.9075,
+        "MEDIAN INCOME": 68172.5,
+        "Food stamps": 369.5
+    },
+    {
+        "ZIP": 19149.0,
+        "StudentEnrollment": 1128.6,
+        "Average Daily Attendance (YTD)": 89.726,
+        "MEDIAN INCOME": 55256.6666666667,
+        "Food stamps": 576.5
+    },
+    {
+        "ZIP": 19150.0,
+        "StudentEnrollment": 400.0,
+        "Average Daily Attendance (YTD)": 90.4433333333,
+        "MEDIAN INCOME": 57279.2,
+        "Food stamps": 245.2
+    },
+    {
+        "ZIP": 19151.0,
+        "StudentEnrollment": 350.3333333333,
+        "Average Daily Attendance (YTD)": 90.51,
+        "MEDIAN INCOME": 67173.0,
+        "Food stamps": 443.0
+    },
+    {
+        "ZIP": 19152.0,
+        "StudentEnrollment": 815.25,
+        "Average Daily Attendance (YTD)": 91.4225,
+        "MEDIAN INCOME": 58754.0,
+        "Food stamps": 525.6666666667
+    },
+    {
+        "ZIP": 19153.0,
+        "StudentEnrollment": 381.0,
+        "Average Daily Attendance (YTD)": 84.26,
+        "MEDIAN INCOME": 47261.5,
+        "Food stamps": 56.75
+    },
+    {
+        "ZIP": 19154.0,
+        "StudentEnrollment": 912.0,
+        "Average Daily Attendance (YTD)": 91.22,
+        "MEDIAN INCOME": 89814.0,
+        "Food stamps": 243.75
+    },
+    {
+        "ZIP": 18966.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 128622.0,
+        "Food stamps": 58.5384615385
+    },
+    {
+        "ZIP": 18974.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 105919.8571428571,
+        "Food stamps": 93.8571428571
+    },
+    {
+        "ZIP": 19001.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 105965.8181818182,
+        "Food stamps": 81.1818181818
+    },
+    {
+        "ZIP": 19002.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 136798.1052631579,
+        "Food stamps": 42.2631578947
+    },
+    {
+        "ZIP": 19003.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 136503.1,
+        "Food stamps": 46.4
+    },
+    {
+        "ZIP": 19004.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 141713.6666666667,
+        "Food stamps": 47.5
+    },
+    {
+        "ZIP": 19006.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 121270.5833333333,
+        "Food stamps": 58.25
+    },
+    {
+        "ZIP": 19008.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 126252.4,
+        "Food stamps": 54.0
+    },
+    {
+        "ZIP": 19010.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 134876.6666666667,
+        "Food stamps": 19.125
+    },
+    {
+        "ZIP": 19012.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 122803.0,
+        "Food stamps": 66.0
+    },
+    {
+        "ZIP": 19018.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 74897.2,
+        "Food stamps": 213.1
+    },
+    {
+        "ZIP": 19020.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 81136.5333333333,
+        "Food stamps": 248.9333333333
+    },
+    {
+        "ZIP": 19021.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 66473.0,
+        "Food stamps": 245.6666666667
+    },
+    {
+        "ZIP": 19022.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 68155.0,
+        "Food stamps": 227.6666666667
+    },
+    {
+        "ZIP": 19023.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 50798.5714285714,
+        "Food stamps": 392.0
+    },
+    {
+        "ZIP": 19026.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 87526.8461538462,
+        "Food stamps": 123.7692307692
+    },
+    {
+        "ZIP": 19027.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 97671.1666666667,
+        "Food stamps": 154.3333333333
+    },
+    {
+        "ZIP": 19029.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 55640.5,
+        "Food stamps": 124.5
+    },
+    {
+        "ZIP": 19031.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 142520.6666666667,
+        "Food stamps": 55.0
+    },
+    {
+        "ZIP": 19032.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 57753.0,
+        "Food stamps": 419.75
+    },
+    {
+        "ZIP": 19033.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 97350.6666666667,
+        "Food stamps": 223.6666666667
+    },
+    {
+        "ZIP": 19034.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 87109.0,
+        "Food stamps": 82.0
+    },
+    {
+        "ZIP": 19035.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 123432.0,
+        "Food stamps": 47.0
+    },
+    {
+        "ZIP": 19036.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 72389.3333333333,
+        "Food stamps": 221.6666666667
+    },
+    {
+        "ZIP": 19038.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 121943.8571428571,
+        "Food stamps": 62.2857142857
+    },
+    {
+        "ZIP": 19040.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 92209.25,
+        "Food stamps": 162.25
+    },
+    {
+        "ZIP": 19041.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 95611.0,
+        "Food stamps": 78.0
+    },
+    {
+        "ZIP": 19044.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 116316.0,
+        "Food stamps": 56.0
+    },
+    {
+        "ZIP": 19046.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 90718.0,
+        "Food stamps": 68.5
+    },
+    {
+        "ZIP": 19050.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 57131.0,
+        "Food stamps": 262.875
+    },
+    {
+        "ZIP": 19053.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 90452.75,
+        "Food stamps": 133.25
+    },
+    {
+        "ZIP": 19064.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 120802.2222222222,
+        "Food stamps": 56.3333333333
+    },
+    {
+        "ZIP": 19066.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 157970.5,
+        "Food stamps": 33.0
+    },
+    {
+        "ZIP": 19074.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 84632.5,
+        "Food stamps": 202.0
+    },
+    {
+        "ZIP": 19078.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 89454.5,
+        "Food stamps": 148.0
+    },
+    {
+        "ZIP": 19082.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 66578.1428571429,
+        "Food stamps": 454.0
+    },
+    {
+        "ZIP": 19083.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 132658.25,
+        "Food stamps": 36.5
+    },
+    {
+        "ZIP": 19085.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 124145.0,
+        "Food stamps": 104.0
+    },
+    {
+        "ZIP": 19086.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 122229.75,
+        "Food stamps": 223.25
+    },
+    {
+        "ZIP": 19087.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 159924.4444444444,
+        "Food stamps": 29.4545454545
+    },
+    {
+        "ZIP": 19090.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 75583.0,
+        "Food stamps": 81.0
+    },
+    {
+        "ZIP": 19095.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 86884.5,
+        "Food stamps": 141.5
+    },
+    {
+        "ZIP": 19096.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 146849.0,
+        "Food stamps": 29.5
+    },
+    {
+        "ZIP": 19101.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 29464.0,
+        "Food stamps": 0.0
+    },
+    {
+        "ZIP": 19102.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 99794.0,
+        "Food stamps": 74.6
+    },
+    {
+        "ZIP": 19105.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 69267.0,
+        "Food stamps": 123.0
+    },
+    {
+        "ZIP": 19107.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 101268.0,
+        "Food stamps": 153.0
+    },
+    {
+        "ZIP": 19112.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 94093.5,
+        "Food stamps": 173.3333333333
+    },
+    {
+        "ZIP": 19333.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 186693.3333333333,
+        "Food stamps": 21.25
+    },
+    {
+        "ZIP": 19401.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 68737.5384615385,
+        "Food stamps": 304.1538461538
+    },
+    {
+        "ZIP": 19405.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 104585.0,
+        "Food stamps": 48.6
+    },
+    {
+        "ZIP": 19406.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 101954.0,
+        "Food stamps": 28.8333333333
+    },
+    {
+        "ZIP": 19409.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 142788.0,
+        "Food stamps": 42.0
+    },
+    {
+        "ZIP": 19422.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 151975.8,
+        "Food stamps": 30.0
+    },
+    {
+        "ZIP": 19428.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 114623.25,
+        "Food stamps": 53.125
+    },
+    {
+        "ZIP": 19444.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 113229.0,
+        "Food stamps": 0.0
+    },
+    {
+        "ZIP": 19462.0,
+        "StudentEnrollment": null,
+        "Average Daily Attendance (YTD)": null,
+        "MEDIAN INCOME": 132321.0,
+        "Food stamps": 89.0
+    }
+]
