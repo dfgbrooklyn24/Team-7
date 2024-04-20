@@ -9,12 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/material": "^5.15.15",
     "next": "^14.2.2",
     "pigeon-maps": "^0.21.5",
     "react": "^18",
     "react-dom": "^18",
     "react-simple-maps": "^3.0.0"
   },
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0"
+  },  
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",
