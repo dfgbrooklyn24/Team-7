@@ -43,6 +43,12 @@ export default function Home() {
         {/* Main Map area */}
         <div className="flex-grow">
           <MyMap/>
+           {/* <Marker 
+            width={50}
+            anchor={[50.879, 4.6997]} 
+            color={color} 
+            onClick={() => setHue(hue + 20)} 
+          > */}
         </div>
 
         <div className="ml-8 w-1/4 flex flex-col"> 
