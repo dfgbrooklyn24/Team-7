@@ -2,12 +2,59 @@
 import {MapChart}  from "./components/simplemap.jsx"; 
 import { MyMap } from "./components/map.tsx"
 import { Slider, Typography } from "@mui/material";
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import data from '../json/final_dataframe.json';
 
 
-
-
+// Home page component
 export default function Home() {
+  // track selected metrics
+  const [selectedMetrics, setSelectedMetrics] = useState({
+    income: 50,
+    graduation: 50,
+    foodstamps: 50,
+  });
+
+  const [topZipCodes, setTopZipCodes] = useState<string[]>([]);
+
+  const updateTopZipCodes = () => {
+    // Sort ZIP codes based on selected metrics
+    const sortedZipCodes = data.sort((a, b) => {
+      // Criteria 1: Lower median income is better
+      const incomeComparison = a["MEDIAN INCOME"] - b["MEDIAN INCOME"];
+      
+      // Criteria 2: Lower average daily attendance is better
+      const attendanceComparison = a["Average Daily Attendance (YTD)"] - b["Average Daily Attendance (YTD)"];
+      
+      // Criteria 3: Higher number of food stamps is better
+      const foodStampsComparison = b["Food stamps"] - a["Food stamps"];
+
+      // Combine all criteria
+      return incomeComparison + attendanceComparison + foodStampsComparison;
+    });
+    
+    // Select top 10 ZIP codes
+    const top10ZipCodes = sortedZipCodes.slice(0, 10);
+    setTopZipCodes(top10ZipCodes);
+  };
+
+  const handleButtonClick = () => {
+    updateTopZipCodes();
+  };
+
+  useEffect(() => {
+    updateTopZipCodes();
+  }, [selectedMetrics]);
+
+  const handleSliderChange = (metric, value) => {
+    setSelectedMetrics(prevState => ({
+      ...prevState,
+      [metric]: value
+    }));
+    updateTopZipCodes();
+  };
+  
+  // Render the UI
   return (
     <div>
       <header className="fixed top-0 left-0 right-0 bg-gray-800 text-white py-6 px-8 flex justify-between items-center">
@@ -37,10 +84,10 @@ export default function Home() {
           </a>
         </div>
       </header>
-      
-      <div className="h-16 " />
 
-      <main className="flex min-h-screen flex-row bg-slate-600 p-24">
+      <div className="h-16" />
+
+      <main className="flex min-h-screen flex-row p-24">
         {/* Main Map area */}
         <div className="flex-grow rounded-lg">
           <MyMap/>
@@ -49,49 +96,56 @@ export default function Home() {
 
         <div className="ml-8 w-1/4 flex flex-col"> 
           <div className="mb-4">
-            <Typography>Median Household Income</Typography>
+            <Typography>Income Median</Typography>
             <Slider
-              defaultValue={50}
-              aria-label="Adjust Metric 1"
+              defaultValue={selectedMetrics.income}
+              aria-label="Income Median"
               valueLabelDisplay="auto"
+              min={0}
+              max={100}
+              onChange={(event, value) => handleSliderChange('income', value)}
             />
           </div>
 
           <div className="mb-4">
             <Typography>Graduation Rate</Typography>
             <Slider
-              defaultValue={50}
-              aria-label="Adjust Metric 2"
+              defaultValue={selectedMetrics.graduation}
+              aria-label="Graduation Rate"
               valueLabelDisplay="auto"
+              min={0}
+              max={100}
+              onChange={(event, value) => handleSliderChange('graduation', value)}
             />
           </div>
-
-          <div>
-            <Typography>Number of food stamps allocated</Typography>
+          
+          <div className='mb-8'>
+            <Typography>Food Stamps Received</Typography>
             <Slider
-              defaultValue={50}
-              aria-label="Adjust Metric 3"
+              defaultValue={selectedMetrics.foodstamps}
+              aria-label="Food Stamps Received"
               valueLabelDisplay="auto"
+              min={0}
+              max={100}
+              onChange={(event, value) => handleSliderChange('foodstamps', value)}
             />
-          </div>
-          <div>
-          <a
-          href="/get-started"
-          className="bg-gradient-to-r from-green-400 to-blue-500 "
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-2 text-xl`}>
-            Get expansion suggestions{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-        
-        </a>
           </div>
         </div>
       </main>
+      {/* Display top zip codes */}
+      <div className='mt-2 flex justify-center'>
+        <div>
+            <h2 className='text-xl leading-6 mb-3'>Top 10 Zip Codes for Non-Profit Operations:</h2>
+            <ul>
+              {topZipCodes.map((zipCode, index) => (
+                <li key={index}>
+                  ZIP: {zipCode.ZIP}
+                </li>
+              ))}
+            </ul>
+        </div>
       </div>
-    );
+    </div>
+  );
 }
+
